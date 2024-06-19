@@ -510,8 +510,9 @@ header{
     width: 50%;
     height: 50%;
     border-radius: 50%;
-    border: 5px double #333;
+    border: 5px double #9d51e4a2;
     padding: 8px;
+    filter: drop-shadow(0 0 0.55rem #a45fe558);
 }
 .trainee-img h1{
     font-size: 18px;
@@ -526,8 +527,16 @@ header{
     padding: 5px 20px;
     height: 200px;
 }
-
-
+.trainee-reviews .carousel-indicators li {
+background-color: #8a2be2;
+border-bottom: 10px solid #b1a6bc66;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+}
+.trainee-reviews .carousel-indicators {
+    bottom: -65px;
+}
 
 
 
